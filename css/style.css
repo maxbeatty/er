@@ -1,0 +1,195 @@
+/************************************************************************/
+/* Erin Radtke Photography by Max Beatty */
+/************************************************************************/
+body {
+	margin: 0; padding: 0;
+	height: 100%;
+	min-width: 1000px;
+	background:#180e15;
+	text-align: center;
+	color: #070507;
+	}
+	
+header {
+	display:block;
+	margin:0;
+	background-color: #070507;
+	border-bottom: 1px solid #2d1e26;
+}
+
+header img {
+	padding: 0;
+	margin:15px auto 15px auto;
+	border: 0;
+	outline: none;
+}
+
+section#flash-gallery {
+	display:inherit;
+	margin: 0 0 25px 0;
+	padding: 0;
+	height: 500px;
+	background-color: #4a3247;
+	border: 1px solid #2d1e26;
+}
+
+section#flash-gallery p {
+	color: #070507;
+	margin-top: -3px;
+	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+section#flash-gallery p a:link, section#flash-gallery p a:visited {
+	color: #ff476a;
+	text-decoration:underline;
+}
+
+footer {
+	display: block;
+	width: 800px;
+	height: 400px;
+	margin: 0 auto 20px auto;
+	padding:0;
+	color:#725b71;
+	font: 0.9em normal;
+	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+	text-align: justify;
+}
+
+section#about {
+	float: left;
+	width: 440px;
+	border-right: 1px solid #2d1e26;
+	padding: 0 30px 10px 0;
+}
+
+section#contact {
+	float: left;
+	width: 270px;
+	padding: 0 0 0 30px;
+}
+
+h1,h3 {
+	color: #4a3247;
+	margin-top: 0;
+	/* text-shadow: rgba(255,71,106,0.2) 0 -1px 2px; */
+}
+
+p { 
+	text-indent: 20px;
+	line-height: 18px;
+	font-size: 10pt;
+}
+
+ul {
+	list-style: none;
+	margin: 20px 0 0 0;
+	padding: 0;
+	width: 440px;
+}
+
+li {
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+li:last-child {margin:0;}
+
+li a:link, li a:visited {
+	text-decoration: none;
+	cursor: pointer;
+	color: #180e15;
+	font-size: 10pt;
+}
+
+li a:active { color: #FFF;}
+
+li a:hover { color: #ff476a;}
+
+li a img {border: none;}
+
+em { color: #ff476a;}
+
+ /************************************************************************/
+/* form stylings */
+/************************************************************************/
+
+form#contact span.wrap {
+	position: relative; 
+	display: block;
+	margin-bottom: 0.5em;}
+
+form#contact span.wrap label {
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	font-size: 18px;
+	font-weight:normal;
+	width: 270px;
+	height: 30px;
+	background: none;
+	z-index: 1;
+	line-height: 27px;
+}
+
+form#contact span.wrap label span 
+    { position: relative; 
+      top: 1px; 
+      left: 1px; }
+      
+form#contact .input-text {
+	width: 270px;
+	font-size: 18px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Garuda, sans-serif;	
+	color: #fff;
+	padding: 4px 5px;
+	background: none;
+	position: relative;
+	z-index: 10;
+	border: 1px solid #2d1e26;
+	vertical-align: text-top;
+}
+
+fieldset { margin: 0; padding: 0; border:none; outline:none;}
+
+label.overlay span {
+	opacity: 0.3;
+	-webkit-transition: opacity 200ms linear;
+}
+
+label.focus span { opacity: 0.2; }
+
+label.hastext span { 
+	opacity: 0.0;
+	-webkit-transition: opacity 0ms linear;
+}
+
+label.error {
+	font-style: italic;
+	font-size: 10px;
+	color:#ff476a;
+}
+
+.input-text:focus { 
+	background-color: #180e15; 
+	color: #fff;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Garuda, sans-serif;
+	outline: none;
+}
+
+button.sendBTN {
+	display:block;
+	width: 270px;
+	height: 24px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+	background: transparent url('../images/but-send.gif') top center no-repeat;
+	text-indent: -10000px;
+}
+
+button.sendBTN:hover {
+	background: transparent url('../images/but-send.gif') center -24px no-repeat;
+	cursor: pointer;
+}

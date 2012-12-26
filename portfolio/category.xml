@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- color and tween setting -->
+	<thumbsize>100,100</thumbsize>
+	<thumbslayout>5,3</thumbslayout>
+	<!-- text color setting -->
+	<textnormalcolor>0x2d1e26</textnormalcolor>
+	<textovercolor>0xffffff</textovercolor>
+	<!-- thumbnails color setting.. -->
+	<thumbnormalcolor>0xffffff</thumbnormalcolor>
+	<thumbovercolor>0x2d1e26</thumbovercolor>
+	<thumbborder>4</thumbborder>
+	<!-- backgournd tween -->
+	<bgtweentype>easeInOutBack</bgtweentype>
+	<bgtweentime>0.8</bgtweentime>
+	<!-- category menu tween -->
+    <menumaxperpage>4</menumaxperpage>
+	<menutweentype>easeInOutCirc</menutweentype>
+	<menutweentime>0.8</menutweentime>
+	<!-- button tween  -->
+	<buttontweentype>easeInOutBack</buttontweentype>
+	<buttontweentime>0.8</buttontweentime>
+	<!--  -->
+    <!-- imgloader tween  -->
+	<imgtweentype>easeInOutBack</imgtweentype>
+	<imgtweentime>0.8</imgtweentime>
+	<imgborder>4</imgborder>
+	<!-- set default selectedindex, if you want to show categories menu first, set the value '-1' -->
+	<selectedindex>0</selectedindex>
+	<!-- categories -->
+	<category name="weddings" cover="portfolio/weddings/thumbs/1.jpg" source="portfolio/weddings.xml"></category>
+	<category name="portraits" cover="portfolio/portraits/thumbs/1.jpg" source="portfolio/portraits.xml"></category>
+	<category name="nature" cover="portfolio/nature/thumbs/1.jpg" source="portfolio/nature.xml"></category>
+</data>
